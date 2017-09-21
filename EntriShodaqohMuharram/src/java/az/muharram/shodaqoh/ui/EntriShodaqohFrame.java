@@ -441,6 +441,7 @@ public class EntriShodaqohFrame extends JInternalFrame {
 	}
 	
 	public void newState(){
+		shodaqohToEdit = null;
 		txtNoTransaksi.setText("");
 		cboJenisShodaqoh.setSelectedIndex(0);
 		txtNilaiShodaqoh.setText("0");
