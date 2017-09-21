@@ -1,0 +1,63 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	color: #97a500;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+	text-decoration:none
+}
+.style2 {
+	color: #C83D88;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+	text-decoration:none
+}
+.style3 {
+	color: #75A23E;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+	text-decoration:none
+}
+.style4 {
+	color: #1D5E6A;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+	text-decoration:none
+}
+.style5 {
+	color: #FFFFFF;
+	font-size: 10px;
+	font-family: tahoma;
+}
+#mu li {list-style: url(../images/point_1.gif); margin:0 0 0 0px}
+#mu a { font-family:tahoma; font-size:11px; color:#7F9E15}
+.style6 {
+	color: #737373;
+	font-size: 11px;
+	font-family: tahoma;
+	line-height:12px
+}
+.style7 {
+	color: #000001;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style8 {
+	color: #5b5b5b;
+	font-size: 11px;
+	font-family: tahoma;
+}
+.style9 {
+	color: #89A919;
+	font-size: 11px;
+	font-family: tahoma;
+	text-transform:uppercase
+}

@@ -1,0 +1,292 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+body{
+	line-height:14px;
+	font-size: small;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	margin:0pt;
+	cursor:default;
+	overflow: visible;
+
+}
+html,body{
+	height:100%;
+	text-align: center;
+
+}
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+strong{
+	font-weight: 700;
+}
+/******* GENERAL RESET *******/
+h1{
+	font-weight: 700;
+	font-size: 17px;
+	font-family:Georgia,"Times New Roman", serif;
+	/* line-height: 1.2em;
+	border-bottom: 1px dotted #6b9ef1; */
+	color: #fff;
+	margin-bottom: 1em;
+	width:90%;
+	/* margin-left:0px auto; */
+	text-align:center;
+}
+/******* LOGO *******/
+#logo{
+	/* margin-top: .5em; */
+	display: block;
+	margin:0px auto;
+	text-align:center;
+	width:98%;
+	background:#000 url(../images/bg_head.gif) repeat-x;
+	height:120px;
+	position:absolute;
+	z-index:-1;
+	left:10px;
+	top:0px;
+}
+/******* /LOGO  *******/
+/******* CONTAINER *******/
+#container{
+	width: 700px;
+	margin: 0px auto;
+	text-align: left;
+	background:url(../images/bg_03.png) repeat-y;
+}
+#top-stop{
+	width: 700px;
+	margin: 83px auto 0px;
+	height:15px;
+	background:url(../images/bg_top_01.png) no-repeat;
+}
+#bottom-stop{
+	width: 700px;
+	margin: 0px auto;
+	height:27px;
+	background:url(../images/bg_bottom.png) no-repeat;
+}
+/******* /CONTAINER *******/
+/******* FORM *******/
+#customForm{
+	margin:0px 10px;
+	padding: 0 10px 10px;
+	width:70%;
+}
+#customForm fieldset{
+	border:1px solid #B2B2B2;
+	padding:10px;
+	color:#999999;
+	-moz-border-radius:6px;
+}
+#customForm label{
+	display: block;
+	color: #797979;
+	font-weight: 700;
+	line-height: 1.4em;
+}
+input{
+	width: 220px;
+	padding: 3px;
+	color: #4D4D4D;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+input.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+select{
+
+	width: 230px;
+	height: 25px;
+	color: #4D4D4D;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+#customForm textarea{
+	width: 215px;
+	height: 40px;
+	padding: 6px;
+	color: #adaeae;
+	font-style: italic;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+#customForm textarea.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+#customForm div{
+	margin-bottom: 15px;
+}
+#customForm div span{
+	margin-left: 10px;
+	color: #b1b1b1;
+	font-size: 11px;
+	font-style: italic;
+}
+#customForm div span.error{
+	color: #e46c6e;
+}
+#send{
+	background: #6f9ff1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+}
+#commit, #cancel, #back{
+	background: #6f9ff1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+	width:100px;
+}
+#send:hover,#commit:hover,#cancel:hover,#back:hover{
+	background: #79a7f1;
+}
+#error{
+	margin-bottom: 20px;
+	border: 1px solid #efefef;
+}
+#error ul{
+	list-style: square;
+	padding: 5px;
+	font-size: 11px;
+}
+#error ul li{
+	list-style-position: inside;
+	line-height: 1.6em;
+}
+#error ul li strong{
+	color: #e46c6d;
+}
+#error.valid ul li strong{
+	color: #93d72e;
+}
+/******* /FORM *******/
+
+/****** bottom navigation *****/
+#navigation{
+	text-align:right;
+	padding-right:20px;
+	margin:10px 0;
+}
+#navigation a{
+	text-decoration:none;
+	display:inline;
+	background:#6f9ff1;
+	padding:4px 15px;
+	margin:3px 20px 0 0;
+	font-weight:700;
+	color:#fff;
+	font-size:11px;
+}
+#navigation a:hover{
+	background:#79a7f1;
+}
+
+#ket_panel{
+	float:right;
+	width:auto;
+	height:auto;
+}
+
+#detail{
+	/* background:#FF7D4D;
+	font-weight:700; 
+	font-size:11px;*/
+	color:#4D4D4D;
+	width:250px;
+	height:auto;
+	margin:0px 20px 0px;
+	/*font-family:tahoma;*/
+}
+
+#detail a{
+	text-decoration:underline;
+	color:#4D4D4D;
+}
+
+#detail h2{
+	font-weight:bold;
+	font-size:15px;
+	text-align:center;
+	margin:5px;
+	padding:2px;
+	border-bottom:1px solid #cecece;
+	color:#797979;
+}
+#footer{
+	margin:20px auto 0px;
+	width:600px;
+	font-size:10px;
+	text-align:center;
+	color:#4D4D4D;
+}
+.editTransaksi{
+	border-collapse:collapse;
+
+	margin:0px auto;
+	width:60%;
+}
+
+.editTransaksi tr{
+	height:25px;
+}
+
+.editTransaksi td{
+	padding:10px;
+
+}
+.daftarTransaksi{
+	border-collapse:collapse;
+	margin:0px auto;
+	width:80%;
+}
+.daftarTransaksi th{
+	border:1px solid #999999;
+	text-align:center;
+	font-size:12px;
+	font-weight:700;
+	color:#4D4D4D;
+	height:23px;
+        padding:5px;
+}
+.daftarTransaksi td{
+	border:1px solid #999999;
+	color:#4D4D4D;
+	height:25px;
+	padding-left:5px;
+
+}
+.daftarTransaksi a{
+	color:#4d4d4d;
+}
+.daftarTransaksi a:hover{
+	text-decoration:underline;
+}

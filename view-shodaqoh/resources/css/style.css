@@ -1,0 +1,143 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#959566;
+}
+
+a{
+	outline:none;
+}
+
+.white_bg{
+	background-color:#ffffff;
+}
+
+.bdy_bg{
+	background-image:url(../images/bg.jpg);
+	height:720px;
+	width:1000px;
+	background-repeat:no-repeat;
+}
+
+.ash_line{
+	background-color:#dddddd;
+}
+
+.right_bg{
+	background-color:#fcb116;
+}
+
+.heading1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#b9760e;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.heading2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#f68b04;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.heading3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#5faac9;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.heading4{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#ffffff;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.text1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#4f4e4d;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:justify;
+}
+
+.link1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#4f4e4d;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+a.link1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#4f4e4d;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+a.link1:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#4f4e4d;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.green_divider{
+	background-image:url(../images/green_divider_19.gif);
+	background-repeat:repeat-y;
+}
+
+.ftr_text{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#b9760e;
+	padding-right:22px;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.ftr_links{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#660033;
+	padding-right:22px;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+a.ftr_links{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#660033;
+	padding-right:22px;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+a.ftr_links:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#660033;
+	padding-right:22px;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:none;
+}
