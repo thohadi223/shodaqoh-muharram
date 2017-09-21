@@ -113,7 +113,6 @@ public class ShodaqohDAO {
 		}else{
 			insert.setObject(4, null);
 		}
-		System.out.println(insert);
 		insert.executeUpdate();
 	}
 	
@@ -127,7 +126,6 @@ public class ShodaqohDAO {
 			update.setInt(2, s.getPenyumbang().getIdPenyumbang());
 		else
 			update.setObject(2, null);
-		System.out.println(update);
 		update.executeUpdate();
 	}
 }
